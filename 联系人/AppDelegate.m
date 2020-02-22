@@ -16,7 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //设置启动页的停滞时间为2.5s（在j自己的模拟器上跑老是黑屏，launchscreenstoryboard放的启动图也无法显示
+    //于是阉割了这个功能
+    [NSThread sleepForTimeInterval:2.5];
     return YES;
 }
 

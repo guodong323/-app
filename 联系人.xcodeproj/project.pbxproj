@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1831C41523EAD9CC0027DB45 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1831C41423EAD9CC0027DB45 /* Launch Screen.storyboard */; };
+		185153DA23FE2C3500D6F65E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1831C41423EAD9CC0027DB45 /* Launch Screen.storyboard */; };
+		185153DB23FE2C3600D6F65E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1831C41423EAD9CC0027DB45 /* Launch Screen.storyboard */; };
 		18CBD39223E841980052C525 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD39123E841980052C525 /* AppDelegate.m */; };
 		18CBD39523E841980052C525 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD39423E841980052C525 /* SceneDelegate.m */; };
 		18CBD39823E841980052C525 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD39723E841980052C525 /* ViewController.m */; };
 		18CBD39B23E841980052C525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CBD39923E841980052C525 /* Main.storyboard */; };
 		18CBD39D23E8419A0052C525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CBD39C23E8419A0052C525 /* Assets.xcassets */; };
-		18CBD3A023E8419A0052C525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CBD39E23E8419A0052C525 /* LaunchScreen.storyboard */; };
 		18CBD3A323E8419A0052C525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD3A223E8419A0052C525 /* main.m */; };
 		18CBD3AD23E8419A0052C525 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD3AC23E8419A0052C525 /* ___Tests.m */; };
 		18CBD3B823E8419A0052C525 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD3B723E8419A0052C525 /* ___UITests.m */; };
+		18CBD3C723E844A70052C525 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD3C623E844A70052C525 /* LoginViewController.m */; };
+		18CBD3CA23E845800052C525 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD3C923E845800052C525 /* ContactViewController.m */; };
+		18CBD3CD23E846340052C525 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD3CC23E846340052C525 /* Contact.m */; };
+		18CBD3D023E846540052C525 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD3CF23E846540052C525 /* AddViewController.m */; };
+		18CBD3D323E84E760052C525 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBD3D223E84E760052C525 /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1831C41423EAD9CC0027DB45 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		18CBD38D23E841980052C525 /* 联系人.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "联系人.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CBD39023E841980052C525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18CBD39123E841980052C525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,7 +53,6 @@
 		18CBD39723E841980052C525 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18CBD39A23E841980052C525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18CBD39C23E8419A0052C525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18CBD39F23E8419A0052C525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CBD3A123E8419A0052C525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CBD3A223E8419A0052C525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18CBD3A823E8419A0052C525 /* 联系人Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "联系人Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +61,16 @@
 		18CBD3B323E8419A0052C525 /* 联系人UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "联系人UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CBD3B723E8419A0052C525 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		18CBD3B923E8419A0052C525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CBD3C523E844A70052C525 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		18CBD3C623E844A70052C525 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		18CBD3C823E845800052C525 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		18CBD3C923E845800052C525 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		18CBD3CB23E846340052C525 /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		18CBD3CC23E846340052C525 /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		18CBD3CE23E846540052C525 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		18CBD3CF23E846540052C525 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		18CBD3D123E84E760052C525 /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		18CBD3D223E84E760052C525 /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +98,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		185153DE23FE398100D6F65E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18CBD39623E841980052C525 /* ViewController.h */,
+				18CBD39723E841980052C525 /* ViewController.m */,
+				18CBD3C523E844A70052C525 /* LoginViewController.h */,
+				18CBD3C623E844A70052C525 /* LoginViewController.m */,
+				18CBD3C823E845800052C525 /* ContactViewController.h */,
+				18CBD3C923E845800052C525 /* ContactViewController.m */,
+				18CBD3CE23E846540052C525 /* AddViewController.h */,
+				18CBD3CF23E846540052C525 /* AddViewController.m */,
+				18CBD3D123E84E760052C525 /* EditViewController.h */,
+				18CBD3D223E84E760052C525 /* EditViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185153DF23FE398B00D6F65E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				18CBD3CB23E846340052C525 /* Contact.h */,
+				18CBD3CC23E846340052C525 /* Contact.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		185153E023FE399700D6F65E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18CBD39923E841980052C525 /* Main.storyboard */,
+				18CBD39C23E8419A0052C525 /* Assets.xcassets */,
+				1831C41423EAD9CC0027DB45 /* Launch Screen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18CBD38423E841980052C525 = {
 			isa = PBXGroup;
 			children = (
@@ -104,17 +157,15 @@
 		18CBD38F23E841980052C525 /* 联系人 */ = {
 			isa = PBXGroup;
 			children = (
-				18CBD39023E841980052C525 /* AppDelegate.h */,
-				18CBD39123E841980052C525 /* AppDelegate.m */,
-				18CBD39323E841980052C525 /* SceneDelegate.h */,
 				18CBD39423E841980052C525 /* SceneDelegate.m */,
-				18CBD39623E841980052C525 /* ViewController.h */,
-				18CBD39723E841980052C525 /* ViewController.m */,
-				18CBD39923E841980052C525 /* Main.storyboard */,
-				18CBD39C23E8419A0052C525 /* Assets.xcassets */,
-				18CBD39E23E8419A0052C525 /* LaunchScreen.storyboard */,
+				18CBD39323E841980052C525 /* SceneDelegate.h */,
+				18CBD39123E841980052C525 /* AppDelegate.m */,
+				18CBD39023E841980052C525 /* AppDelegate.h */,
 				18CBD3A123E8419A0052C525 /* Info.plist */,
 				18CBD3A223E8419A0052C525 /* main.m */,
+				185153E023FE399700D6F65E /* View */,
+				185153DF23FE398B00D6F65E /* Module */,
+				185153DE23FE398100D6F65E /* Controller */,
 			);
 			path = "联系人";
 			sourceTree = "<group>";
@@ -240,9 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CBD3A023E8419A0052C525 /* LaunchScreen.storyboard in Resources */,
 				18CBD39D23E8419A0052C525 /* Assets.xcassets in Resources */,
 				18CBD39B23E841980052C525 /* Main.storyboard in Resources */,
+				1831C41523EAD9CC0027DB45 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185153DA23FE2C3500D6F65E /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185153DB23FE2C3600D6F65E /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +321,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CBD39823E841980052C525 /* ViewController.m in Sources */,
+				18CBD3D323E84E760052C525 /* EditViewController.m in Sources */,
+				18CBD3CA23E845800052C525 /* ContactViewController.m in Sources */,
 				18CBD39223E841980052C525 /* AppDelegate.m in Sources */,
 				18CBD3A323E8419A0052C525 /* main.m in Sources */,
+				18CBD3CD23E846340052C525 /* Contact.m in Sources */,
 				18CBD39523E841980052C525 /* SceneDelegate.m in Sources */,
+				18CBD3D023E846540052C525 /* AddViewController.m in Sources */,
+				18CBD3C723E844A70052C525 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,14 +370,6 @@
 				18CBD39A23E841980052C525 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18CBD39E23E8419A0052C525 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18CBD39F23E8419A0052C525 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
