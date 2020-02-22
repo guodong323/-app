@@ -85,7 +85,7 @@
     //设置转圈时间
     [activityView startAnimating];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.8 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-    if ([self.nameField.text isEqualToString:@"1"] && [self.passwordField.text isEqualToString:@"1"])
+    if ([self.nameField.text isEqualToString:@"毛国栋"] && [self.passwordField.text isEqualToString:@"123456"])
     {
         //用手动型segue进行页面跳转（主界面）
         [self performSegueWithIdentifier:@"login2contacts" sender:nil];
